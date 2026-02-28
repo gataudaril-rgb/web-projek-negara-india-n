@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tour Packages</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <header>
+    <div class="navbar-container">
+      <div class="logo">IndiaFest <span style="font-size:1.2em">🇮🇳</span></div>
+      <nav class="nav-menu">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="#" class="nav-link">About</a>
+        <a href="#" class="nav-link">Contact</a>
+        <a href="#" class="nav-link">Our Team</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" id="tours">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1>Tour Packages</h1>
+      <p>Experience India with our curated travel packages.</p>
+    </div>
+  </section>
+
+  <section class="destination-section">
+    <div class="card-row">
+      <div class="card" onclick="expandCard(this, event)">
+        <img src="https://images.unsplash.com/photo-1552520514-1b966f841cae?w=800&q=80" alt="Golden Triangle">
+        <div class="card-title">GOLDEN TRIANGLE</div>
+        <div class="card-content">
+          <p>7 Days: Explore Delhi, Agra, and Jaipur. Visit Taj Mahal, Red Fort, and Hawa Mahal.</p>
+          <button class="btn-next" onclick="window.location.href='#'">Book Now</button>
+        </div>
+      </div>
+      <div class="card" onclick="expandCard(this, event)">
+        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80" alt="Spiritual Journey">
+        <div class="card-title">SPIRITUAL JOURNEY</div>
+        <div class="card-content">
+          <p>5 Days: Experience Varanasi, Bodh Gaya, and sacred temples along the Ganges.</p>
+          <button class="btn-next" onclick="window.location.href='#'">Book Now</button>
+        </div>
+      </div>
+      <div class="card" onclick="expandCard(this, event)">
+        <img src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800&q=80" alt="South India">
+        <div class="card-title">SOUTH INDIA</div>
+        <div class="card-content">
+          <p>10 Days: Discover temples, backwaters, and wildlife in Kerala, Tamil Nadu, and Karnataka.</p>
+          <button class="btn-next" onclick="window.location.href='#'">Book Now</button>
+        </div>
+      </div>
+    </div>
+    <div class="card-row">
+      <div class="card" onclick="expandCard(this, event)">
+        <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" alt="Mountain Adventure">
+        <div class="card-title">MOUNTAIN ADVENTURE</div>
+        <div class="card-content">
+          <p>8 Days: Trek through Himalayas, visit hill stations in Manali, Shimla, and Darjeeling.</p>
+          <button class="btn-next" onclick="window.location.href='#'">Book Now</button>
+        </div>
+      </div>
+      <div class="card" onclick="expandCard(this, event)">
+        <img src="https://images.unsplash.com/photo-1524492459585-12268d1f206c?w=800&q=80" alt="Rajasthan Heritage">
+        <div class="card-title">RAJASTHAN HERITAGE</div>
+        <div class="card-content">
+          <p>6 Days: Explore royal palaces, forts, and deserts in Jaipur, Udaipur, and Jodhpur.</p>
+          <button class="btn-next" onclick="window.location.href='#'">Book Now</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 IndiaFest. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

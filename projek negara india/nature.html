@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nature & Wildlife</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <header>
+    <div class="navbar-container">
+      <div class="logo">IndiaFest <span style="font-size:1.2em">🇮🇳</span></div>
+      <nav class="nav-menu">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="#" class="nav-link">About</a>
+        <a href="#" class="nav-link">Contact</a>
+        <a href="#" class="nav-link">Our Team</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" id="nature">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1>Nature & Wildlife</h1>
+      <p>Discover the breathtaking natural beauty of India.</p>
+    </div>
+  </section>
+
+  <section class="destination-section">
+    <div class="card-row">
+      <div class="card" onclick="expandCard(this, event)">
+        <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" alt="Himalayas">
+        <div class="card-title">HIMALAYAS</div>
+        <div class="card-content">
+          <p>Majestic mountain range with snow-capped peaks, ancient monasteries, and trekking trails.</p>
+          <button class="btn-next" onclick="window.location.href='#'">Learn More</button>
+        </div>
+      </div>
+      <div class="card" onclick="expandCard(this, event)">
+        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80" alt="Jungle Safari">
+        <div class="card-title">JUNGLE SAFARI</div>
+        <div class="card-content">
+          <p>Explore rich wildlife in national parks. See tigers, elephants, and rare species.</p>
+          <button class="btn-next" onclick="window.location.href='#'">Learn More</button>
+        </div>
+      </div>
+      <div class="card" onclick="expandCard(this, event)">
+        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80" alt="Beaches">
+        <div class="card-title">BEACHES</div>
+        <div class="card-content">
+          <p>Pristine coastlines with golden sands, from Goa to the Andaman Islands.</p>
+          <button class="btn-next" onclick="window.location.href='#'">Learn More</button>
+        </div>
+      </div>
+    </div>
+    <div class="card-row">
+      <div class="card" onclick="expandCard(this, event)">
+        <img src="https://images.unsplash.com/photo-1518173946687-a4c036bc8c3d?w=800&q=80" alt="Backwaters">
+        <div class="card-title">BACKWATERS</div>
+        <div class="card-content">
+          <p>Serene network of lagoons and lakes in Kerala, perfect for houseboat cruises.</p>
+          <button class="btn-next" onclick="window.location.href='#'">Learn More</button>
+        </div>
+      </div>
+      <div class="card" onclick="expandCard(this, event)">
+        <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=800&q=80" alt="Thar Desert">
+        <div class="card-title">THAR DESERT</div>
+        <div class="card-content">
+          <p>Vast golden sands of Rajasthan offering camel safaris and desert camping.</p>
+          <button class="btn-next" onclick="window.location.href='#'">Learn More</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 IndiaFest. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

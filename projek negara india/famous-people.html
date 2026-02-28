@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Famous People</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <header>
+    <div class="navbar-container">
+      <div class="logo">IndiaFest <span style="font-size:1.2em">🇮🇳</span></div>
+      <nav class="nav-menu">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="#" class="nav-link">About</a>
+        <a href="#" class="nav-link">Contact</a>
+        <a href="#" class="nav-link">Our Team</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" id="famous">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1>Famous People</h1>
+      <p>Meet the legends who shaped India's history.</p>
+    </div>
+  </section>
+
+  <section class="destination-section">
+    <div class="card-row">
+      <div class="card" onclick="expandCard(this, event)">
+        <img src="https://images.unsplash.com/photo-1569974507005-6dc61f97fb5c?w=800&q=80" alt="Mahatma Gandhi">
+        <div class="card-title">MAHATMA GANDHI</div>
+        <div class="card-content">
+          <p>Father of the Nation. Led India's independence movement through non-violence.</p>
+          <button class="btn-next" onclick="window.location.href='#'">Learn More</button>
+        </div>
+      </div>
+      <div class="card" onclick="expandCard(this, event)">
+        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80" alt="Swami Vivekananda">
+        <div class="card-title">VIVEKANANDA</div>
+        <div class="card-content">
+          <p>Revolutionary monk who brought Indian spirituality to the world.</p>
+          <button class="btn-next" onclick="window.location.href='#'">Learn More</button>
+        </div>
+      </div>
+      <div class="card" onclick="expandCard(this, event)">
+        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&q=80" alt="Indira Gandhi">
+        <div class="card-title">INDIRA GANDHI</div>
+        <div class="card-content">
+          <p>First female Prime Minister of India. Led the nation through critical phases.</p>
+          <button class="btn-next" onclick="window.location.href='#'">Learn More</button>
+        </div>
+      </div>
+    </div>
+    <div class="card-row">
+      <div class="card" onclick="expandCard(this, event)">
+        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=800&q=80" alt="APJ Abdul Kalam">
+        <div class="card-title">APJ ABDUL KALAM</div>
+        <div class="card-content">
+          <p>Renowned scientist and 11th President of India. Known as the Missile Man.</p>
+          <button class="btn-next" onclick="window.location.href='#'">Learn More</button>
+        </div>
+      </div>
+      <div class="card" onclick="expandCard(this, event)">
+        <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=800&q=80" alt="Rabindranath Tagore">
+        <div class="card-title">RABINDRANATH TAGORE</div>
+        <div class="card-content">
+          <p>First Asian to win Nobel Prize in Literature. Poet and philosopher.</p>
+          <button class="btn-next" onclick="window.location.href='#'">Learn More</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 IndiaFest. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

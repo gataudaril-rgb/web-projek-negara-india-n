@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Explore India</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <header>
+    <div class="navbar-container">
+      <div class="logo">IndiaFest <span style="font-size:1.2em">🇮🇳</span></div>
+      <nav class="nav-menu">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="#" class="nav-link">About</a>
+        <a href="#" class="nav-link">Contact</a>
+        <a href="#" class="nav-link">Our Team</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" id="explore">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1>Famous Destinations</h1>
+      <p>Discover the imperial cities and hidden gems of India.</p>
+    </div>
+  </section>
+
+  <section class="destination-section">
+    <div class="card-row">
+      <div class="card" onclick="expandCard(this, event)">
+        <img src="https://images.unsplash.com/photo-1564507592333-c60657eea523?w=800&q=80" alt="Taj Mahal">
+        <div class="card-title">TAJ MAHAL</div>
+        <div class="card-content">
+          <p>Iconic marble mausoleum in Agra. A UNESCO World Heritage Site and symbol of eternal love.</p>
+          <button class="btn-next" onclick="window.location.href='#'">Learn More</button>
+        </div>
+      </div>
+      <div class="card" onclick="expandCard(this, event)">
+        <img src="https://images.unsplash.com/photo-1477587458883-47145ed94245?w=800&q=80" alt="Jaipur">
+        <div class="card-title">JAIPUR</div>
+        <div class="card-content">
+          <p>The Pink City, famous for royal palaces, vibrant markets, and architectural wonders.</p>
+          <button class="btn-next" onclick="window.location.href='#'">Learn More</button>
+        </div>
+      </div>
+      <div class="card" onclick="expandCard(this, event)">
+        <img src="https://images.unsplash.com/photo-1561361513-2d000a50f0dc?w=800&q=80" alt="Varanasi">
+        <div class="card-title">VARANASI</div>
+        <div class="card-content">
+          <p>The spiritual heart of India with sacred ghats along the Ganges and ancient traditions.</p>
+          <button class="btn-next" onclick="window.location.href='#'">Learn More</button>
+        </div>
+      </div>
+    </div>
+    <div class="card-row">
+      <div class="card" onclick="expandCard(this, event)">
+        <img src="https://images.unsplash.com/photo-1516684669134-de6d7c47743b?w=800&q=80" alt="Kerala">
+        <div class="card-title">KERALA</div>
+        <div class="card-content">
+          <p>God's Own Country with serene backwaters, lush green landscapes, and Ayurvedic wellness.</p>
+          <button class="btn-next" onclick="window.location.href='#'">Learn More</button>
+        </div>
+      </div>
+      <div class="card" onclick="expandCard(this, event)">
+        <img src="https://images.unsplash.com/photo-1548013146-72479768bada?w=800&q=80" alt="Delhi">
+        <div class="card-title">DELHI</div>
+        <div class="card-content">
+          <p>India's capital, blending historic monuments, modern city life, and diverse cuisine.</p>
+          <button class="btn-next" onclick="window.location.href='#'">Learn More</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 IndiaFest. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

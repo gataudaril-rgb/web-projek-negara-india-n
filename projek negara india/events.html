@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cultural Events</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <header>
+    <div class="navbar-container">
+      <div class="logo">IndiaFest <span style="font-size:1.2em">🇮🇳</span></div>
+      <nav class="nav-menu">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="#" class="nav-link">About</a>
+        <a href="#" class="nav-link">Contact</a>
+        <a href="#" class="nav-link">Our Team</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" id="events">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1>Cultural Events</h1>
+      <p>Experience the vibrant festivals and celebrations of India.</p>
+    </div>
+  </section>
+
+  <section class="destination-section">
+    <div class="card-row">
+      <div class="card" onclick="expandCard(this, event)">
+        <img src="https://images.unsplash.com/photo-1494942636040-e186e81cef91?w=800&q=80" alt="Holi">
+        <div class="card-title">HOLI</div>
+        <div class="card-content">
+          <p>The festival of colors celebrated across India with colored powder and joyous celebrations.</p>
+          <button class="btn-next" onclick="window.location.href='#'">Learn More</button>
+        </div>
+      </div>
+      <div class="card" onclick="expandCard(this, event)">
+        <img src="https://images.unsplash.com/photo-1548599622-c31e11cdfcd7?w=800&q=80" alt="Diwali">
+        <div class="card-title">DIWALI</div>
+        <div class="card-content">
+          <p>The most celebrated festival in India with fireworks, sweets, and family gatherings.</p>
+          <button class="btn-next" onclick="window.location.href='#'">Learn More</button>
+        </div>
+      </div>
+      <div class="card" onclick="expandCard(this, event)">
+        <img src="https://images.unsplash.com/photo-1525365280917-498caa0ddf60?w=800&q=80" alt="Pongal">
+        <div class="card-title">PONGAL</div>
+        <div class="card-content">
+          <p>South Indian harvest festival with rice cooking and traditional games.</p>
+          <button class="btn-next" onclick="window.location.href='#'">Learn More</button>
+        </div>
+      </div>
+    </div>
+    <div class="card-row">
+      <div class="card" onclick="expandCard(this, event)">
+        <img src="https://images.unsplash.com/photo-1505664076010-cb3f6e06e514?w=800&q=80" alt="Navratri">
+        <div class="card-title">NAVRATRI</div>
+        <div class="card-content">
+          <p>Nine-night festival celebrating the divine feminine with dance performances.</p>
+          <button class="btn-next" onclick="window.location.href='#'">Learn More</button>
+        </div>
+      </div>
+      <div class="card" onclick="expandCard(this, event)">
+        <img src="https://images.unsplash.com/photo-1516974147578-324d2b2a6d4e?w=800&q=80" alt="Onam">
+        <div class="card-title">ONAM</div>
+        <div class="card-content">
+          <p>Traditional harvest festival of Kerala with flower decorations and boat races.</p>
+          <button class="btn-next" onclick="window.location.href='#'">Learn More</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 IndiaFest. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

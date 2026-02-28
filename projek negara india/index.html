@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>INDIAFEST - Experience the Wonders of India</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <header>
+    <div class="navbar-container">
+      <div class="logo">IndiaFest <span style="font-size:1.2em">🇮🇳</span></div>
+  <nav class="nav-menu">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="#" class="nav-link">About</a>
+        <a href="#" class="nav-link">Contact</a>
+        <a href="#" class="nav-link">Our Team</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1>IndiaFest</h1>
+      <h2>Experience the Wonders of India</h2>
+      <p>Discover the rich culture, vibrant festivals, and breathtaking destinations of India. Join us on a journey through the heart of this incredible country.</p>
+      </h2>
+    </div>
+  </section>
+
+  <section class="destination-section">
+    <div class="card-row">
+      <div class="card" onclick="expandCard(this, event)">
+        <img src="https://images.unsplash.com/photo-1564507592333-c60657eea523?w=800&q=80" alt="Explore">
+        <div class="card-title">EXPLORE</div>
+        <div class="card-content">
+          <p>Jelajahi destinasi-destinasi terkenal di India, dari Taj Mahal hingga Kerala.</p>
+          <button class="btn-next" onclick="window.location.href='explore.html'">Kunjungi Halaman</button>
+        </div>
+      </div>
+      <div class="card" onclick="expandCard(this, event)">
+        <img src="https://images.unsplash.com/photo-1524492459585-12268d1f206c" alt="Famous People">
+        <div class="card-title">FAMOUS PEOPLE</div>
+        <div class="card-content">
+          <p>Jelajahi kehidupan dan cerita inspiratif tokoh-tokoh terkenal dari India yang telah membentuk sejarah dan budaya.</p>
+          <button class="btn-next" onclick="window.location.href='famous-people.html'">Kunjungi Halaman</button>
+        </div>
+      </div>
+      <div class="card" onclick="expandCard(this, event)">
+        <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4" alt="Nature">
+        <div class="card-title">NATURE</div>
+        <div class="card-content">
+          <p>Nikmati keindahan alam India yang luar biasa, dari pegunungan Himalaya hingga pantai-pantai tropis.</p>
+          <button class="btn-next" onclick="window.location.href='nature.html'">Kunjungi Halaman</button>
+        </div>
+      </div>
+    </div>
+    <div class="card-row">
+      <div class="card" onclick="expandCard(this, event)">
+        <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836" alt="Culinary">
+        <div class="card-title">CULINARY</div>
+        <div class="card-content">
+          <p>Rasakan cita rasa kuliner India yang kaya rempah, dari masakan tradisional hingga hidangan modern.</p>
+          <button class="btn-next" onclick="window.location.href='culinary.html'">Kunjungi Halaman</button>
+        </div>
+      </div>
+      <div class="card" onclick="expandCard(this, event)">
+        <img src="https://images.unsplash.com/photo-1494942636040-e186e81cef91" alt="Events">
+        <div class="card-title">EVENTS</div>
+        <div class="card-content">
+          <p>Ikuti berbagai acara dan festival budaya India yang penuh warna dan semangat.</p>
+          <button class="btn-next" onclick="window.location.href='events.html'">Kunjungi Halaman</button>
+        </div>
+      </div>
+      <div class="card" onclick="expandCard(this, event)">
+        <img src="https://images.unsplash.com/photo-1524492459585-12268d1f206c" alt="Tours">
+        <div class="card-title">TOURS</div>
+        <div class="card-content">
+          <p>Jelajahi destinasi wisata India dengan tur yang menarik dan penuh petualangan.</p>
+          <button class="btn-next" onclick="window.location.href='tours.html'">Kunjungi Halaman</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 IndiaFest. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

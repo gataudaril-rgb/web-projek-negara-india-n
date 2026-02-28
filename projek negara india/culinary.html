@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Indian Culinary</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <header>
+    <div class="navbar-container">
+      <div class="logo">IndiaFest <span style="font-size:1.2em">🇮🇳</span></div>
+      <nav class="nav-menu">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="#" class="nav-link">About</a>
+        <a href="#" class="nav-link">Contact</a>
+        <a href="#" class="nav-link">Our Team</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" id="culinary">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1>Indian Culinary</h1>
+      <p>Experience the rich flavors and aromatic spices of India.</p>
+    </div>
+  </section>
+
+  <section class="destination-section">
+    <div class="card-row">
+      <div class="card" onclick="expandCard(this, event)">
+        <img src="https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80" alt="Biryani">
+        <div class="card-title">BIRYANI</div>
+        <div class="card-content">
+          <p>Fragrant rice dish layered with spices, meat, and aromatic herbs from Hyderabad.</p>
+          <button class="btn-next" onclick="window.location.href='#'">Learn More</button>
+        </div>
+      </div>
+      <div class="card" onclick="expandCard(this, event)">
+        <img src="https://images.unsplash.com/photo-1601050690597-df0568f70950?w=800&q=80" alt="Curry">
+        <div class="card-title">CURRY</div>
+        <div class="card-content">
+          <p>Rich and creamy dish with aromatic spices, vegetables or meat in thick gravy.</p>
+          <button class="btn-next" onclick="window.location.href='#'">Learn More</button>
+        </div>
+      </div>
+      <div class="card" onclick="expandCard(this, event)">
+        <img src="https://images.unsplash.com/photo-1567337710282-00832b415979?w=800&q=80" alt="Tandoori">
+        <div class="card-title">TANDOORI</div>
+        <div class="card-content">
+          <p>Traditional clay oven cooking giving unique smoky flavor to meats and bread.</p>
+          <button class="btn-next" onclick="window.location.href='#'">Learn More</button>
+        </div>
+      </div>
+    </div>
+    <div class="card-row">
+      <div class="card" onclick="expandCard(this, event)">
+        <img src="https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=800&q=80" alt="Samosa">
+        <div class="card-title">SAMOSA</div>
+        <div class="card-content">
+          <p>Crispy triangular pastry filled with spiced potatoes, peas, and sometimes meat.</p>
+          <button class="btn-next" onclick="window.location.href='#'">Learn More</button>
+        </div>
+      </div>
+      <div class="card" onclick="expandCard(this, event)">
+        <img src="https://images.unsplash.com/photo-1626072156829-7b29c7f3a594?w=800&q=80" alt="Dosa">
+        <div class="card-title">DOSA</div>
+        <div class="card-content">
+          <p>Thin, crispy crepe made from fermented rice batter, served with chutney and sambar.</p>
+          <button class="btn-next" onclick="window.location.href='#'">Learn More</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 IndiaFest. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
